@@ -1,0 +1,78 @@
+body {background-color: forestgreen;}
+h2 {
+  font-size: 2em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+    font-family: "Arial";
+}
+h3{
+   text-align: center;
+  letter-spacing: -1px;
+    font-family: "Arial";
+}
+p{
+      text-align: center;
+    font-family: "Arial";
+}
+ul{
+    font-family: "Arial";
+    display: inline-block;
+    list-style-type: none;
+}
+#dice{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 50%;
+}
+#dice_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#score_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title-image{
+    width: 288px;
+    height: 96px;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.die{
+   text-align: center;
+}
+.pixelated-image {
+    width: 112px;
+    height: 112px;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+.pb-button{
+    background-color: rgb(238,43,52);
+    padding: 5px 25px;
+}
+.list-container{
+    text-align: center;
+}
+table{
+    width: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: aliceblue;
+    font-family: "Arial";
+}
+button{
+    background-color: aliceblue;
+    padding: 5px 25px;
+}
